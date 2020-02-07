@@ -19,8 +19,6 @@ def insertLog(input1, input2, input3):
 	sql = f"INSERT INTO students (name, age, gradeLevel) VALUES ('{input1}', '{input2}', '{input3}')"
 	cur.execute(sql)
 insertLog(name,age,gradeLevel)
-
-
 	
 sql = "SELECT * FROM students"
 cur.execute(sql)
