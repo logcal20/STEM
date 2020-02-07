@@ -2,7 +2,7 @@
 
 import MySQLdb
 
-db = MySQLdb.connect(host="192.168.0.224", user="logcal20", passwd="password", db="school")
+db = MySQLdb.connect(host="localhost", user="logcal20", passwd="password", db="school")
 cur = db.cursor(MySQLdb.cursors.DictCursor)
  
 name = input("Please enter student's name. ")
